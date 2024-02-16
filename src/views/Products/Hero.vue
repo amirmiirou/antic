@@ -1,5 +1,5 @@
 <script>
-// eslint-disable-next-line to ignore the next line.
+// eslint-disable-next-line
 /* eslint-disable */
 
 export default {
