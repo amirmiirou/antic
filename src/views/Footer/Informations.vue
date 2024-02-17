@@ -25,9 +25,9 @@ lg:flex lg:flew-row lg:justify-between
 
 
 ">
-<h1 class="font-bold text-un leading-sept text-iii text-center md:text-center sm:text-center font-merri">antic</h1>
+<h1 class="font-bold text-un leading-sept text-iii text-center md:text-center sm:text-center font-merri pt-4">antic</h1>
 
-<div>
+<div class="pt-4">
 <h2 class="font-semibold text-e leading-f text-iii font-vart">Products</h2>
 <div class=" mt-5 flex flex-col">
 
@@ -40,7 +40,7 @@ lg:flex lg:flew-row lg:justify-between
 </div>
 </div>
 
-<div>
+<div class="pt-4">
 
     <h2 class="font-semibold text-e leading-f text-iii font-vart">Rooms</h2>
 <div class="mt-5 flex flex-col">
@@ -63,9 +63,9 @@ lg:flex lg:flew-row lg:justify-between
 
 
 
-<div>
+<div class="pt-4">
 
-    <h2 class="font-semibold text-e leading-f text-iii font-merri">Services</h2>
+    <h2 class="font-semibold text-e leading-f text-iii font-vart">Services</h2>
 <div class="mt-5 flex flex-col">
 
 <router-link to="" class="font-normal text-lg text-c no-underline font-vart">Click and collect</router-link>
@@ -78,7 +78,7 @@ lg:flex lg:flew-row lg:justify-between
 
 </div>
 
-<div>
+<div class="pt-4">
 
     <h2 class="font-semibold text-e leading-f text-iii font-vart">About</h2>
 <div class="mt-5 flex flex-col">
@@ -94,12 +94,12 @@ lg:flex lg:flew-row lg:justify-between
 
 </div>
 
-<div class="flex flex-col">
+<div class="flex flex-col pt-4">
     <h3 class="font-semibold text-e leading-f text-iii font-vart">We respect our planet</h3>
 <div class="mt-5">
 
     <img src="../../assets/images/Picture.png" alt="" />
-<p class="font-normal text-lg text-c font-vart">We’re taking positive steps to<br/> reduce our impact on the planet.<br/> For us, that means retailing<br/> responsibly.</p>
+<p class="font-normal text-lg text-c font-vart pt-4">We’re taking positive steps to<br/> reduce our impact on the planet.<br/> For us, that means retailing<br/> responsibly.</p>
 <router-link to="" class="font-normal text-lg text-brown no-underline font-karla">Learn more</router-link>
 
 
@@ -137,7 +137,7 @@ flex flex-col-reverse  justify-between
 
     <p class="font-normal text-foot ">© 2021 Agence Dnd</p>
 
-<div class=" w-1/4 flex justify-between flex-wrap">
+<div class=" md:w-2/4 sm:w-2/4 w-2/4 xl:w-1/4 lg:w-1/4 flex justify-between flex-wrap">
     <router-link to="" class="font-normal text-foot ">Privacy policy</router-link>
 <router-link to="" class="font-normal text-foot ">Term of service</router-link>
 <router-link to="" class="font-normal text-foot ">Language</router-link>

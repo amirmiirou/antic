@@ -1,6 +1,5 @@
 <script>
-// eslint-disable-next-line
-/* eslint-disable */
+
 
 export default {
 
@@ -144,19 +143,20 @@ font-merri
 md:hidden
 sm:hidden
 hidden
+pl-5
   
 xl:flex xl:flex-grow xl:justify-between xl:h-full xl:items-center
 lg:flex lg:flex-grow lg:justify-between lg:h-full lg:items-center
 
 
 ">
-<router-link @click="" class="w-cinq  font-normal text-six leading-sept  no-underline font-varta text-c" to="" >Products</router-link>
+<h1  class="w-cinq  font-normal text-six leading-sept  no-underline font-varta text-c" to="" >Products</h1>
 
-<router-link @click="activateRooms" class="w-cinq  font-normal  text-six leading-sept  no-underline font-varta text-c"  to="" >Rooms</router-link>
+<h1 v-on:click="activateRooms" class="w-cinq  font-normal  text-six leading-sept  no-underline font-varta text-c"  to="" >Rooms</h1>
 
-<router-link @click="activateServices" class="w-cinq  font-normal  text-six leading-sept  no-underline font-varta text-c" to="" >Services</router-link>
+<h1 v-on:click="activateServices" class="w-cinq  font-normal  text-six leading-sept  no-underline font-varta text-c" to="" >Services</h1>
 
-<router-link @click="activateInspiration" class="w-cinq font-normal  text-six leading-sept  no-underline font-varta text-c" to="" >Inspirations</router-link>
+<h1 @click="activateInspiration" class="w-cinq font-normal  text-six leading-sept  no-underline font-varta text-c" to="" >Inspirations</h1>
 
 </div>
     
@@ -174,16 +174,72 @@ sm:hidden
 hidden
 ">
     <span class="border  border-white rounded-full ">
-        <img @click="activateFooter" class='p-2'   src="../../assets/images/i.png" />
+        <img v-on:click="activateFooter" class='p-2'   src="../../assets/images/i.png" />
     </span>
 </div>
 
-<div class="
+  
 
-xl:hidden
-lg:hidden
 
-"><img src="../../assets/images/Menu.png"/></div>
+<div class="xl:hidden lg:hidden" >
+
+
+    <v-menu
+            bottom
+            right
+          >
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                dark
+                icon
+                v-bind="attrs"
+                v-on="on"
+              >
+                <v-icon>mdi-dots-vertical</v-icon>
+              </v-btn>
+            </template>
+
+            
+    <v-list>
+
+<v-list-item>
+    <v-list-item-title>Products</v-list-item-title>
+</v-list-item>
+<v-list-item>
+    <v-list-item-title>Services</v-list-item-title>
+
+</v-list-item>
+
+<v-list-item>
+    <v-list-item-title>Inspirations</v-list-item-title>
+
+</v-list-item>
+
+<v-list-item>
+    <v-list-item-title>Footer</v-list-item-title>
+
+</v-list-item>
+
+
+
+        
+      </v-list>
+           
+          </v-menu>
+
+
+
+
+</div>
+
+   
+
+
+
+
+
+
+  
 
 </div>
 

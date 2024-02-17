@@ -105,7 +105,7 @@ Dining room,<br class="md:hidden sm:hidden hidden"> bedroom, bathroom<br class="
      <div class="relative flex justify-start ">
         <img class="h-80"  src="../../assets/images/d.png" />
     <h2 class="pl-3 font-vart text-brownLight">New arrivals</h2>
-    <h1 class="absolute bottom-20 left-20 font-normal text-a leading-ss text-brown font-merri">bedroom</h1>
+    <h1 class="absolute bottom-20 left-10 font-normal text-a leading-ss text-brown font-merri">bedroom</h1>
   </div>
   
   
